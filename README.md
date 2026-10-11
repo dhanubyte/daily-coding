@@ -1,5 +1,3 @@
-# daily-coding
-My daily coding practice: Python, HTML/CSS, JavaScript and SQL. One small commit every day. 🚀
 # Daily Coding 🚀
 
 My daily practice repo. I learn something new and commit it here every day.
