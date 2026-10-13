@@ -23,6 +23,8 @@ More folders (`python/`, `html-css/`, `javascript/`, `sql/`) will be added as I 
 | Day | What I built |
 | --- | --- |
 | 1 | Set up this repo |
+| 2 | 3 Python problems |
+| 3 | SQL Practice Queries |
 
 ## Goal
 Commit something real every day and build a deployed full stack project.
