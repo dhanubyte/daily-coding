@@ -1,0 +1,15 @@
+// Day 03 — Even or Odd
+
+Topic: Python if-else statements and modulo operator (%).
+
+What I learned:
+- How conditional statements work.
+- How to check divisibility using the modulo operator.
+- How to take integer input and print a result.
+
+//Practice problem: Write a program to determine whether a number is even or odd.
+  num=int(input("Enter number here: "))
+  if num%2==0:
+      print("even")
+  else 
+      print("odd")
