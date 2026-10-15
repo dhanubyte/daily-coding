@@ -26,6 +26,7 @@ More folders (`python/`, `html-css/`, `javascript/`, `sql/`) will be added as I 
 | 2 | 3 Python problems |
 | 3 | SQL Practice Queries |
 | 4 | Python if else problem |
+| 5 | C++ programming topics overview |
 
 ## Goal
 Commit something real every day and build a deployed full stack project.
