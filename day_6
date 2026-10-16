@@ -1,0 +1,104 @@
+COMPUTER NETWORKS 
+One-line definitions 
+
+Unit I 
+
+Computer Network: a set of interconnected devices that share data and resources.
+LAN: network covering a small area like a lab or building.
+MAN: network covering a city.
+WAN: network covering a large geographical area, like the Internet.
+Topology: the physical or logical layout of how devices are connected.
+Bus: all devices share one common backbone cable.
+Star: all devices connect to a central hub/switch.
+Ring: each device connects to exactly two neighbours, forming a loop.
+Mesh: every device connects to every other device.
+Tree: hierarchical combination of star topologies.
+Hybrid: combination of two or more topologies.
+Hub: Layer 1 device that broadcasts incoming data to all ports.
+Switch: Layer 2 device that forwards frames using MAC addresses.
+Router: Layer 3 device that forwards packets between networks using IP addresses.
+Protocol: set of rules for communication between devices.
+OSI Model: 7-layer reference model (Physical, Data Link, Network, Transport, Session, Presentation, Application).
+TCP/IP Suite: 4/5-layer practical protocol model used on the Internet.
+
+Unit II
+
+Physical Layer: transmits raw bits over the medium.
+Guided media: wired media like twisted pair, coaxial, fiber.
+Unguided media: wireless media like radio waves, microwaves, infrared.
+Attenuation: loss of signal strength over distance.
+Distortion: change in signal shape due to different frequency speeds.
+Noise: unwanted signal that corrupts data.
+Bandwidth: maximum data a channel can carry per second.
+Throughput: actual data rate achieved.
+Latency: time taken for data to travel from source to destination.
+Data Link Layer: handles node-to-node delivery, framing, and error control.
+Parity bit: one extra bit added to make the count of 1s even or odd.
+Checksum: sum of data segments sent along to detect errors.
+CRC: error detection using polynomial division.
+Hamming code: error detecting and correcting code using redundant bits at power-of-2 positions.
+
+Unit III
+
+MAC Sublayer: controls access to the shared medium.
+ALOHA: stations send whenever they want, collisions are retried later.
+Slotted ALOHA: sending allowed only at slot start, doubling efficiency.
+CSMA: sense the channel before transmitting.
+CSMA/CD: CSMA plus collision detection, used in wired Ethernet.
+Ethernet: the most widely used LAN technology (IEEE 802.3).
+IP Address: logical address identifying a device on a network.
+Classful addressing: IP space divided into fixed classes A to E.
+Classless (CIDR): addressing with variable-length prefixes, no fixed classes.
+Subnetting: dividing one network into smaller sub-networks.
+Subnet mask: tells which part of the IP is network and which is host.
+IP Address Class Table 
+Class	Range
+A	    1 – 126        	                      
+B   	128 – 191	
+C   	192 – 223	
+D   	224 – 239		
+E   	240 – 255	
+//Abbreviations
+Abbr	Full form
+LAN	Local Area Network
+MAN	Metropolitan Area Network
+WAN	Wide Area Network
+PAN	Personal Area Network
+NIC	Network Interface Card
+OSI	Open Systems Interconnection
+ISO	International Organization for Standardization
+TCP	Transmission Control Protocol
+IP	Internet Protocol
+UDP	User Datagram Protocol
+ISP	Internet Service Provider
+PDU	Protocol Data Unit
+CLI	Command Line Interface 
+UTP	Unshielded Twisted Pair
+STP	Shielded Twisted Pair
+EMI	Electromagnetic Interference
+bps	Bits Per Second
+dB	Decibel
+CRC	Cyclic Redundancy Check
+FCS	Frame Check Sequence
+ARQ	Automatic Repeat reQuest
+HDLC	High-Level Data Link Control
+PPP	Point-to-Point Protocol
+LLC	Logical Link Control
+MAC	Media Access Control
+FEC	Forward Error Correction
+CSMA	Carrier Sense Multiple Access
+CSMA/CD	CSMA with Collision Detection
+CSMA/CA	CSMA with Collision Avoidance
+IEEE	Institute of Electrical and Electronics Engineers
+CIDR	Classless Inter-Domain Routing
+FLSM	Fixed Length Subnet Masking
+VLSM	Variable Length Subnet Masking
+DHCP	Dynamic Host Configuration Protocol
+ARP	Address Resolution Protocol
+ICMP	Internet Control Message Protocol
+IPv4 / IPv6	Internet Protocol version 4 / 6
+ALOHA: not a real acronym, it’s a Hawaiian word. The protocol was developed at the University of Hawaii.
+HTTP: HyperText Transfer Protocol
+FTP: File Transfer Protocol
+DNS: Domain Name System
+SMTP: Simple Mail Transfer Protocol
