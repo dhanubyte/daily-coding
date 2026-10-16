@@ -27,6 +27,7 @@ More folders (`python/`, `html-css/`, `javascript/`, `sql/`) will be added as I 
 | 3 | SQL Practice Queries |
 | 4 | Python if else problem |
 | 5 | C++ programming topics overview |
+| 6 | Basic concepts of computer networks |
 
 ## Goal
 Commit something real every day and build a deployed full stack project.
