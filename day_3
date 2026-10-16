@@ -1,0 +1,32 @@
+create table Students(
+  id integer primary key,
+  name text,
+  branch text,
+  marks integer,
+  city text
+);
+insert into Students values
+(1, 'Dhanu' ,'CSE',77,'Kurnool'),
+(2,'Gopal','CSE',99,'Kurnool'),
+(3,'Veeresh','Agriculture',93,'Gadwal'),
+(4,'Vyshnavi','IT',80,'Hyderabad'),
+(5,'Chandra','ECE',96,'Anantapur'),
+(6,'Sharath','ECE',65,'Tirupathi'),
+(7, 'Ravi',   'CSE', 82, 'Hyderabad'),
+(8, 'Sneha',  'ECE', 67, 'Vijayawada'),
+(9, 'Arjun',  'CSE', 55, 'Nellore'),
+(10, 'Meena',  'IT',  91, 'Chennai'),
+(11, 'Kiran',  'CSE', 73, 'Hyderabad'),
+(12, 'Divya',  'ECE', 48, 'Guntur'),
+(13, 'Rahul',  'IT',  64, 'Vijayawada'),
+(14, 'Pooja',  'CSE', 88, 'Chennai');
+select * from Students;
+select name,marks from Students;
+select name from Students where marks>60;
+select name from Students where branch='CSE';
+select name ,marks from Students order by marks desc;
+select name,marks from Students order by marks desc limit 3;
+select name,marks from students where city='Hyderabad' and marks>70;
+select branch ,count(*) from Students group by branch;
+select branch,avg(marks) from Students group by branch;
+select name from Students where name like'R%';
