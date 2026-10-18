@@ -28,6 +28,7 @@ More folders (`python/`, `html-css/`, `javascript/`, `sql/`) will be added as I 
 | 4 | Python if else problem |
 | 5 | C++ programming topics overview |
 | 6 | Basic concepts of computer networks |
+| 7 | Basic concepts of discrete maths and learning Interpersonal skills from TCS |
 
 ## Goal
 Commit something real every day and build a deployed full stack project.
