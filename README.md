@@ -13,10 +13,6 @@ I'm learning to become a **full stack developer**.
 - SQL
 - Learning next: Git, React, Node.js
 
-## What's inside
-- `notes.md`: what I learn each day
-
-More folders (`python/`, `html-css/`, `javascript/`, `sql/`) will be added as I build.
 
 ## Progress log
 
