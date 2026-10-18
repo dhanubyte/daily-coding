@@ -25,6 +25,7 @@ I'm learning to become a **full stack developer**.
 | 5 | C++ programming topics overview |
 | 6 | Basic concepts of computer networks |
 | 7 | Basic concepts of discrete maths and learning Interpersonal skills from TCS |
+| 8 | Thinking models and Frontend End Development  course in AWS |
 
 ## Goal
 Commit something real every day and build a deployed full stack project.
