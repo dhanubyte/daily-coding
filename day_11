@@ -1,0 +1,80 @@
+Interpersonal skills
+ Prepare a strong  Resume and Coverletter 
+  Order:
+    Contact details
+    Objective/summary
+    Education section in chronological order
+    skills
+    Qualification and certifications
+    Personal details
+Three tpes of Resumes:
+      Chronoligical resume
+      Functional resume
+      Combination resume
+    Introduction to Frontend Development:
+      CSS Effects
+      Creating navigation bar
+      Blend mode - It controls how an element's colors blend with the colors of the background or elements behind it.
+        Common values:
+multiply — creates a darker blended effect.
+screen — creates a lighter blended effect.
+overlay — combines light and dark contrast.
+difference — creates contrasting colors.
+      Clip image - It lets you cut an image into a particular shape, such as a circle, triangle, or polygon.
+      Psuedo effect - CSS has two related features that help you style elements without adding extra HTML.
+A. Pseudo-classes (:)
+They style an element when it is in a particular state.
+Examples:
+:hover — pointer is over an element.
+:focus — element has focus.
+:active — element is being activated.
+:first-child — element is the first child.
+B. Pseudo-elements (::)
+They style a specific part of an element or insert decorative content.
+Examples:
+::before — inserts content before an element's content.
+::after — inserts content after its content.
+::first-letter — styles the first letter.
+::first-line — styles the first line.
+//C++ Operator Overloading
+  
+#include <iostream>
+using namespace std;
+class Base{
+    private:
+    int a;
+    public:
+    void read(int x){
+            a=x;
+    }
+    void display(void){
+        cout<<"value of a is: "<<a;
+        
+    }
+    void operator!(void)
+    {
+        a=!a;
+    }   
+};
+
+
+
+    int main(){
+        Base obj;
+        obj.read(10);
+        cout<<"Before calling Operator Overloading";
+        obj.display();
+        cout<<endl;
+        !obj;
+        cout<<"After calling Operator Overloading";
+        obj.display();
+        cout<<endl;
+        return 0;
+}
+//OUTPUT
+Before calling Operator Overloadingvalue of a is: 10
+After calling Operator Overloadingvalue of a is: 0
+
+
+    
+      
