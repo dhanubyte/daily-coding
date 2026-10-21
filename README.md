@@ -27,7 +27,8 @@ I'm learning to become a **full stack developer**.
 | 7 | Basic concepts of discrete maths and learning Interpersonal skills from TCS |
 | 8 | Thinking models and Frontend End Development  course in AWS |
 | 9 | CSS Essentials course from CNA and SkillUP certification about Generative AI Literacy |
-
+| 10 | Softs skills in TCS |
+| 11 | CSS effects,resume and cover letter creating |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 
