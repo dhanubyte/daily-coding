@@ -29,6 +29,7 @@ I'm learning to become a **full stack developer**.
 | 9 | CSS Essentials course from CNA and SkillUP certification about Generative AI Literacy |
 | 10 | Softs skills in TCS |
 | 11 | CSS effects,resume and cover letter creating |
+| 12 | Be prepared for GD and The Psychology of Money by Morgan Housel |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 
