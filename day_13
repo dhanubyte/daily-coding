@@ -1,0 +1,80 @@
+//Tree elements index at left and right side
+#include <iostream>
+#include <vector>
+using namespace std;
+
+const int MAX_SIZE = 20;
+const int EMPTY = -1;
+
+class ArrayBinaryTree {
+private:
+    int data[MAX_SIZE];
+public:
+    ArrayBinaryTree() {
+        for (int i = 0; i < MAX_SIZE; i++) {
+            data[i] = EMPTY;
+        }
+    }
+
+    void insertRoot(int val) {
+        data[0] = val;
+    }
+
+    void insertLeft(int parentIdx, int val) {
+        if (data[parentIdx] == EMPTY) {
+            cout << "Cannot insert: Parent does not exist at index " << parentIdx << "\n";
+            return;
+        }
+        int leftIdx = 2 * parentIdx + 1;
+        if (leftIdx < MAX_SIZE) {
+            data[leftIdx] = val;
+        } else {
+            cout << "Tree array overflow!\n";
+        }
+    }
+
+    void insertRight(int parentIdx, int val) {
+        if (data[parentIdx] == EMPTY) {
+            cout << "Cannot insert: Parent does not exist at index " << parentIdx << "\n";
+            return;
+        }
+        int rightIdx = 2 * parentIdx + 2;
+        if (rightIdx < MAX_SIZE) {
+            data[rightIdx] = val;
+        } else {
+            cout << "Tree array overflow!\n";
+        }
+    }
+
+    void display() {
+        cout << "Index:\t";
+        for (int i = 0; i < MAX_SIZE; i++)
+            cout << i << "\t";
+        cout << "\nValue:\t";
+        for (int i = 0; i < MAX_SIZE; i++) {
+            if (data[i] == EMPTY) {
+                cout << "-\t";
+            } else {
+                cout << data[i] << "\t";
+            }
+        }
+        cout << '\n';
+    }
+};
+
+int main() {
+    ArrayBinaryTree tree;
+    tree.insertRoot(10);
+    tree.insertLeft(0, 20);
+    tree.insertRight(0, 30);
+    tree.insertLeft(1, 40);
+    tree.display();
+    return 0;
+}
+Interpersonal Skills
+  4P's:
+  Prepare
+  Practice
+  Present
+  Participate
+  
