@@ -30,6 +30,7 @@ I'm learning to become a **full stack developer**.
 | 10 | Softs skills in TCS |
 | 11 | CSS effects,resume and cover letter creating |
 | 12 | Be prepared for GD and The Psychology of Money by Morgan Housel |
+| 13 | Understand How to Ace Corporate Interviews and Tree in DSA |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 
