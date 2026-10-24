@@ -31,6 +31,7 @@ I'm learning to become a **full stack developer**.
 | 11 | CSS effects,resume and cover letter creating |
 | 12 | Be prepared for GD and The Psychology of Money by Morgan Housel |
 | 13 | Understand How to Ace Corporate Interviews and Tree in DSA |
+| 14 | Day 14 Updates |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 
