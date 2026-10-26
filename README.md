@@ -33,6 +33,7 @@ I'm learning to become a **full stack developer**.
 | 13 | Understand How to Ace Corporate Interviews and Tree in DSA |
 | 14 | Learn Corporate Etiquette |
 | 15 | Write an effective email and project modifications |
+| 16 | Completed Saylor University ESL Series |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 
