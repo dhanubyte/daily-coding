@@ -1,0 +1,76 @@
+//Binary search tree 
+#include <iostream>
+struct Node {
+    int data;
+    Node* left;
+    Node* right;
+    Node(int val) : data(val), left(nullptr), right(nullptr) {}
+};
+// Pre order traversal function
+void preOrderTraversal(Node* root) {
+    if (root == nullptr) {
+        return;
+    }
+    std::cout << root->data << " "; // Visit the root
+    preOrderTraversal(root->left);  // Traverse left subtree
+    preOrderTraversal(root->right); // Traverse right subtree
+}
+//inorder traversal function
+void inOrderTraversal(Node* root) {
+    if (root == nullptr) {
+        return;
+    }
+    inOrderTraversal(root->left);   // Traverse left subtree
+    std::cout << root->data << " "; // Visit the root
+    inOrderTraversal(root->right);  // Traverse right subtree
+}
+//memory deallocation function
+void freeTree(Node* root) {
+    if (root == nullptr) {
+        return;
+    }
+    freeTree(root->left);  // Free left subtree
+    freeTree(root->right); // Free right subtree
+    delete root;           // Free the current node
+}
+int main(){
+    // Create a binary tree
+    Node* root = new Node(1);
+    root->left = new Node(2);
+    root->right = new Node(3);
+    root->left->left = new Node(4);
+    root->left->right = new Node(5);
+
+    std::cout << "Pre-order Traversal: ";
+    preOrderTraversal(root);
+    std::cout << std::endl;
+
+    std::cout << "In-order Traversal: ";
+    inOrderTraversal(root);
+    std::cout << std::endl;
+
+    // Free the allocated memory
+    freeTree(root);
+
+    return 0;
+}
+
+Definition
+
+A Binary Search Tree (BST) is a binary tree where every node has at most 2 children (left and right), and it follows this ordering rule:
+
+All values in the left subtree are smaller than the node.
+All values in the right subtree are greater than the node.
+Both left and right subtrees are also BSTs.
+Usually no duplicates (or duplicates go to one fixed side, like right).
+        8
+       / \
+      3   10
+     / \    \
+    1   6    14
+       / \   /
+      4   7 13
+
+Inorder traversal (left, root, right) of a BST always gives a sorted order.
+Interpersonal skills 
+Basics of Accounting
