@@ -35,6 +35,7 @@ I'm learning to become a **full stack developer**.
 | 15 | Write an effective email and project modifications |
 | 16 | Completed Saylor University ESL Series |
 | 17 | Binary Search Tree and Traversal |
+| 18 | Communication with Claude about career |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 
