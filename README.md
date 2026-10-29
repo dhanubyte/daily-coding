@@ -36,8 +36,10 @@ I'm learning to become a **full stack developer**.
 | 16 | Completed Saylor University ESL Series |
 | 17 | Binary Search Tree and Traversal |
 | 18 | Communication with Claude about career |
+| 19 | Started 30 days of JS in LeetCode and Isomorphism graphs |
 ## Goal
 Commit something real every day and build a deployed full stack project.
+Be the better version from the yesterday.....
 
 ## Connect
 - GitHub: [dhanubyte](https://github.com/dhanubyte)
