@@ -38,6 +38,7 @@ I'm learning to become a **full stack developer**.
 | 18 | Communication with Claude about career |
 | 19 | Started 30 days of JS in LeetCode and Isomorphism graphs |
 | 20 | Started 50 days of SQL in Leetcode |
+| 21 | Received the certificate from TCS and planning to study DBMS |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 Be the better version of you  from the yesterday.....
