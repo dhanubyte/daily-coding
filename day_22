@@ -1,0 +1,35 @@
+# Smart To-Do App – Project Progress
+
+**Date:** 01 November 2026
+
+## Today's Progress
+
+Worked on the Login Page using HTML, CSS, and JavaScript.
+
+### Completed Tasks
+- Created and styled the login interface.
+- Designed a dark-themed login card.
+- Added email and password input fields.
+- Removed outdated email and lock icons.
+- Added Show/Hide Password functionality.
+- Implemented email format validation.
+- Added minimum password length validation (6 characters).
+- Added input hover and focus effects.
+- Improved Sign In button hover and click animations.
+- Improved validation message styling.
+
+### Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
+### Next Steps
+- Improve login functionality.
+- Complete validation feedback.
+- Plan login-to-dashboard navigation.
+- Start dashboard development.
+- Implement task management features.
+
+**Project Goal:** Complete the Smart To-Do App by 10 November 2026.
+Started the Ai Database Foundation Associate in oracle 
+  
