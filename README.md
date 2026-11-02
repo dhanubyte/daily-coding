@@ -40,6 +40,7 @@ I'm learning to become a **full stack developer**.
 | 20 | Started 50 days of SQL in Leetcode |
 | 21 | Received the certificate from TCS  |
 | 22 | Updated the Login page |
+| 23 | Tower of Hanoi and Subnetting mask concepts |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 Be the better version of you  from the yesterday.....
