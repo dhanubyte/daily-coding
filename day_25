@@ -1,0 +1,20 @@
+# Smart To-Do App – Daily Development Log
+
+**Date:** 04 November 2026
+
+**Today's completed work:**
+1. Reviewed all five existing project files.
+2. Updated the Add New Task section CSS.
+3. Styled the task form using CSS Grid.
+4. Styled input fields and priority dropdown.
+5. Added focus effects to form inputs.
+6. Styled the Add Task button.
+7. Added hover effects and smooth transitions.
+
+**Concepts learned:**
+- CSS Grid
+- Grid columns and fractional units
+- Gap, padding and margin
+- CSS selectors
+- Focus and hover pseudo-classes
+- CSS transitions....
