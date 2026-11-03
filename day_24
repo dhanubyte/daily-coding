@@ -2,4 +2,88 @@ Updating Smart todo app
   after login credentials are verified and next directs to dashboard
   adding css styles for dashboard ...headings , cards and stats...
   updating js file and css file in login page 
+DSA Heap
+// Online C++ compiler (editor)
+// Write and run C++ online using this editor.
+
+#include <iostream>
+using namespace std;
+const int MAX_SIZE=100;
+    struct Heap {
+        int arr[MAX_SIZE];
+        int size;
+    };
+void initHeap(Heap &h){
+    h.size=0;
+}
+bool isEmpty(const Heap &h){
+    return h.size==0;
+    
+}
+bool isFull(const Heap &h){
+    return h.size==MAX_SIZE;
+}
+inline int parent(int i){
+    return (i-1)/2;
+}
+inline int leftChild(int i){
+    return 2*i+1;
+}
+inline int rightChild(int i){
+    return 2*i+2;
+}
+inline void swap(int &a, int &b){
+    int temp=a;
+    a=b;
+    b=temp;
+}
+
+
+int main() {
+    // Write C++ code here
+    Heap h;
+    initHeap(h);
+    int sampleData[]={50,30,70,20,40,60,80};
+    for(int val:sampleData){
+        h.arr[h.size++]=val;
+    }
+    cout<<"Heap current size: " << h.size <<"\n";
+    cout<<"Root element: " << h.arr[0] << "\n";
+    int idx=2;
+    cout<<"Node at index "<< idx << " (" << h.arr[idx] << "):\n";
+    cout<<"Parent Child: "<<parent(idx) << " -> Value: "<<h.arr[parent(idx)] << "\n";
+    cout<<"Left Child: "<< leftChild(idx) << " -> Value: "<< h.arr[leftChild(idx)]<<"\n";
+    cout<<"Right Child: " << rightChild(idx) << " -> Value: "<< h.arr[rightChild(idx)]<<"\n";
+    
+   
+    
+    return 0;
+}
+//Output
+Heap current size: 7
+Root element: 50
+Node at index 2 (70):
+Parent Child: 0 -> Value: 50
+Left Child: 5 -> Value: 60
+Right Child: 6 -> Value: 80
+min heap= parent node value <= Child node value
+max heap=parent node value >= Child node value
+Discrete Mathematics
+  Dijkstra's Algorithm
+    For finding shortest path between two vertices in weighed graph..
+  NOTE:
+    1.All edges weight must be given
+    2.Remove all loops and multiple edges
+    3.Applicable only to weighted graph
+    4.If source ver tex is given then start from the given source otherwise start from anyn vertex...
+Steps for doing algorithm:
+    1.Begin by labelling '0' to the source vertex and infinity  symbol for all remaining vertex..
+    2.Calculate the distance 'd' of the adjacent vertices and update distance from infinity to d...
+    3.Visit vertex with the smallest distance 'd' and make it current vertex and repeat step 2...
+Leet code 
+    35 days challenge of JS and 50 days of SQL...
+Database management learning from Oracle..
+
+
   
+
