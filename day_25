@@ -18,3 +18,71 @@
 - CSS selectors
 - Focus and hover pseudo-classes
 - CSS transitions....
+Types of Inheritance
+  single:
+    class A{};
+    class B: public A();
+
+  Multilevel Inheritance
+// Online C++ compiler (editor)
+// Write and run C++ online using this editor.
+//Multilevel Inheritance
+#include <iostream>
+using namespace std;
+class Person {
+    public:
+    int age=25;
+};
+class Student: public Person{
+    };
+class Employee:public Person{
+    };
+class TeachingAssistant:public Student,public Employee{
+         };
+
+int main() {
+    // Write C++ code here
+    TeachingAssistant ta;
+    cout<<"Student age: " << ta.Student::age<<endl;
+    cout<<"Employee age: " << ta.Employee::age<<endl;
+        
+
+    
+    return 0;
+}
+//OUTPUT
+Student age: 25
+Employee age: 25
+#include <iostream>
+#include<string>
+using namespace std;
+class Person {
+    public:
+    string name;
+    void display(){
+        cout<<"Name: "<< name<<endl;
+        
+    }
+};
+class Student {
+    public:
+    int rollNo;
+   void display(){
+        cout<<"Roll No: "<< rollNo<<endl;
+    }
+};
+int main(){
+    Person p;
+    Student s;
+    p.name="Dhanu";
+    s.rollNo=48;
+    p.display();
+    s.display();
+}
+//Output..
+Name: Dhanu
+Roll No: 48
+UNIT 5 maths 
+Planar Graph
+
+  
