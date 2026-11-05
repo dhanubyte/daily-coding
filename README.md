@@ -43,6 +43,7 @@ I'm learning to become a **full stack developer**.
 | 23 | Tower of Hanoi and Subnetting mask concepts |
 | 24 | Heap(min and max) and Dijkstra's algorithm |
 | 25 | Tpyes of Inheritance and app updates |
+| 26 | Communicate with AI about project |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 Be the better version of you  from the yesterday.....
