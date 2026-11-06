@@ -1,0 +1,68 @@
+# Day 07 – Smart To-Do App | CSS Development
+
+**Date:** 7 November 2026  
+**Project:** Smart To-Do App  
+**Focus:** CSS Styling, Responsive Design & UI Development
+
+## Today's Work
+
+Today, I continued developing my Smart To-Do App using HTML and CSS. I focused on improving the dashboard design and making the application responsive.
+
+### Tasks Completed
+
+1. **Add Task Form**
+   - Improved the form layout using CSS Grid.
+   - Styled text input, priority dropdown, date input and Add Task button.
+
+2. **Responsive Design**
+   - Added tablet and mobile responsive layouts.
+   - Used CSS media queries.
+   - Improved form alignment on smaller screens.
+
+3. **Search & Filter Section**
+   - Styled the search input.
+   - Designed All, Pending, Completed and High Priority filter buttons.
+   - Added hover and active states.
+
+4. **Task List & Cards**
+   - Designed task card layouts.
+   - Added Low, Medium and High priority labels.
+   - Styled Complete, Edit and Delete buttons.
+   - Added completed-task styling with line-through.
+   - Created an empty-task message.
+
+### Concepts Learned
+
+- CSS Grid and Flexbox
+- CSS Media Queries
+- Responsive Web Design
+- CSS Variables
+- CSS Transitions
+- Hover and Focus Effects
+- Pseudo-classes
+- RGBA Colors
+- Grid Column Properties
+
+### Technologies Used
+
+- HTML5
+- CSS3
+- Visual Studio Code
+
+### Next Day's Plan
+
+- Start JavaScript development.
+- Learn DOM manipulation.
+- Implement Add Task functionality.
+- Display tasks dynamically.
+- Create task objects using JavaScript.
+
+### Learning Outcome
+
+Today, I improved my understanding of CSS layouts, responsive design and UI styling. I also learned how to organize dashboard components and prepare task cards for future JavaScript functionality.
+
+**Progress:** CSS dashboard styling completed. JavaScript functionality is the next milestone.
+
+---
+
+*Consistency is the key to becoming a better developer. Learning and building every day!*
