@@ -46,6 +46,7 @@ I'm learning to become a **full stack developer**.
 | 26 | Communicate with AI about project |
 | 27 | Formal letter writing rules and Prepare your talk (PEL) |
 | 28 | CSS Development |
+| 29 | Earned 50 days badge |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 Be the better version of you  from the yesterday.....
