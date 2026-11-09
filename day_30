@@ -1,0 +1,41 @@
+ Smart To-Do App Development
+
+**Date:** 9 November 2026  
+**Project:** Smart To-Do App  
+**Technologies:** HTML, CSS, JavaScript
+
+## Today's Work Completed
+
+1. Connected the JavaScript file (`script.js`) successfully with `index.html`.
+2. Used `document.getElementById()` to select HTML elements.
+3. Implemented form submission using JavaScript event listeners.
+4. Used `event.preventDefault()` to prevent unwanted page refresh.
+5. Created task objects containing:
+   - Unique ID using `Date.now()`
+   - Task title
+   - Priority
+   - Due date
+   - Completion status
+6. Stored newly created tasks in a JavaScript array using `tasks.push()`.
+7. Created the `renderTasks()` function to display tasks dynamically.
+8. Used `createElement()`, `textContent`, and `appendChild()` to generate task cards.
+9. Successfully displayed newly added tasks on the dashboard.
+
+## Concepts Learned
+
+- DOM Manipulation
+- JavaScript Event Listeners
+- JavaScript Objects
+- Arrays and `push()`
+- `forEach()` Method
+- Dynamic HTML Element Creation
+- `textContent` and `appendChild()`
+- `Date.now()`
+
+## Current Project Status
+
+Successfully implemented task creation and dynamic task display.
+
+**Next Goal:** Implement dynamic dashboard statistics for Total Tasks, Pending Tasks, Completed Tasks, and High Priority Tasks.
+
+**Note:** Tasks are currently stored in a JavaScript array. But not stored in Local Storage...
