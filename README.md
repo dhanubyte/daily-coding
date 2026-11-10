@@ -48,6 +48,7 @@ I'm learning to become a **full stack developer**.
 | 28 | CSS Development |
 | 29 | Earned 50 days badge |
 | 30 | Display tasks in Dashboard  |
+| 31 | Headway online platform practice(OXFORD) |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 Be the better version of you  from the yesterday.....
