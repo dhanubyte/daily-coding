@@ -92,6 +92,72 @@ Mechanical drawing practice and 2 marks questions
 //CSS
   Cisco network academy about properties and types  of assigning colors....
 //Smart to do app updates
+# Smart To-Do App – Daily Development Log
+
+**Date:** 11 November 2026
+
+## Today's Work
+
+### 1. Task Management
+- Implemented dynamic task card rendering.
+- Added Complete / Undo functionality.
+- Added Delete Task functionality.
+- Worked on Edit Task functionality and identified an issue for future debugging.
+
+### 2. Dashboard Statistics
+Implemented dynamic dashboard statistics:
+- Total Tasks
+- Pending Tasks
+- Completed Tasks
+- High Priority Tasks
+
+### 3. Search Functionality
+- Implemented task searching using the task title.
+- Added case-insensitive search.
+- Updated the task list dynamically based on search input.
+
+### 4. Filter Functionality
+Implemented four task filters:
+- All Tasks
+- Pending Tasks
+- Completed Tasks
+- High Priority Tasks
+
+- Added active filter button styling.
+- Connected filtering with the task-rendering function.
+- Debugged and verified filter button functionality.
+
+### 5. Future Project Planning
+Discussed upgrading Smart To-Do into a full-stack application with:
+
+- User registration and account creation.
+- Email and password authentication.
+- Google, GitHub and LinkedIn sign-in.
+- Forgot password and logout.
+- User-specific task management.
+- Supabase authentication and database integration.
+- Website deployment and Android Play Store publication using Capacitor.
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- DOM Manipulation
+- JavaScript Array Methods (`filter()`, `forEach()`)
+- Event Listeners
+- Dynamic UI Rendering
+
+## Next Steps
+1. Implement Local Storage.
+2. Debug the Edit Task button.
+3. Implement Dark / Light Mode.
+4. Improve responsive design.
+5. Implement user authentication.
+6. Integrate Supabase database.
+7. Deploy the website and prepare the Android application.
+
+**Status:** Search, filtering, task management and dashboard statistics implemented successfully.
+
   
 
   
