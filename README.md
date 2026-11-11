@@ -49,7 +49,7 @@ I'm learning to become a **full stack developer**.
 | 29 | Earned 50 days badge |
 | 30 | Display tasks in Dashboard  |
 | 31 | PEL practice(OXFORD) |
-| 32 | Inheritance and Polymorphism |
+| 32 | Inheritance, Polymorphism and Task management,search and filtering |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 Be the better version of you  from the yesterday.....
