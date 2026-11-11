@@ -1,0 +1,97 @@
+Inheritance and Polymorphism in cpp
+  Inheritance:
+    A child class can take features of their parent class
+  Real-life example
+    Think about a father and a son.
+      - Father has a house.
+      - Father has a car.
+      - Son can inherit these properties.
+  Types of inheritance in C++
+There are five main types.
+1. Single inheritance
+One parent class → One child class.
+Example: Father → Son.
+2. Multilevel inheritance
+One class inherits another, and a third class inherits the second.
+Example: Grandfather → Father → Son.
+3. Hierarchical inheritance
+Multiple child classes inherit one parent class.
+Example: Father → Son and Daughter.
+4. Multiple inheritance
+One child class inherits from multiple parent classes.
+Example: Child inherits from Father and Mother.
+5. Hybrid inheritance
+Combination of two or more types of inheritance.
+  Polymorphism:
+    one function in many forms like add(int a, int b),add(int a, int b, int c)
+  Polymorphism means one name having many forms.
+    In simple words:
+      The same function or operation can perform different tasks depending on the situation.
+    Real-life example
+    Think about a person.
+      The same person can act as:
+        - A student in college.
+        - A son at home.
+        - A friend with friends.
+  1. Compile-time polymorphism (Static polymorphism).
+  2. Run-time polymorphism (Dynamic polymorphism).
+A. Compile-time polymorphism
+In compile-time polymorphism, the compiler decides which function to execute during compilation.
+
+Two common techniques:
+- Function overloading.
+- Operator overloading.
+B. Run-time polymorphism
+In run-time polymorphism, the function to execute is decided while the program is running.
+
+It is commonly achieved using:
+- Function overriding.
+- Virtual functions.
+//Inheritance and Polymorphism
+
+  
+#include <iostream>
+using namespace std;
+
+class Animal {
+public:
+    virtual void Sound() {
+        cout << "Animal makes a sound" << endl;
+    }
+};
+
+class Dog : public Animal {
+public:
+    void Sound() override {
+        cout << "Bow Bow" << endl;
+    }
+};
+
+class Cat : public Animal {
+public:
+    void Sound() override {
+        cout << "Meow Meow" << endl;
+    }
+};
+
+int main() {
+
+    Dog d;
+    Cat c;
+
+    d.Sound();
+    c.Sound();
+
+    return 0;
+}
+//OUTPUT
+Bow Bow
+Meow Meow
+//MECH
+Mechanical drawing practice and 2 marks questions 
+//CSS
+  Cisco network academy about properties and types  of assigning colors....
+//Smart to do app updates
+  
+
+  
