@@ -1,0 +1,72 @@
+CPP 
+  //Linked list in cpp
+
+#include <iostream>
+using namespace std;
+
+struct Coach {
+    int number;
+    Coach* next;
+};
+
+int main() {
+
+    // Creating three nodes
+    Coach c1{1, nullptr};
+    Coach c2{2, nullptr};
+    Coach c3{3, nullptr};
+
+    // Connecting the nodes
+    c1.next = &c2;
+    c2.next = &c3;
+
+    // Traversing the linked list
+    Coach* temp = &c1;
+
+    while (temp != nullptr) {
+        cout << temp->number << " ";
+        temp = temp->next;
+    }
+
+    return 0;
+}
+//OUTPUT
+1 2
+//Write a cpp program using a self-referential Patient structure.Each patient has a name and a pointer to the next patient.Connect three patients in queue order and print all names using a loop
+Expected output: Aman Riya Kabir
+
+#include <iostream>
+using namespace std;
+
+// Self-referential structure
+struct Patient {
+    string name;
+    Patient* next;
+};
+
+int main() {
+
+    // Creating three patients
+    Patient p1{"Aman", nullptr};
+    Patient p2{"Riya", nullptr};
+    Patient p3{"Kabir", nullptr};
+
+    // Connecting patients in queue order
+    p1.next = &p2;
+    p2.next = &p3;
+
+    // Printing all patient names
+    Patient* temp = &p1;
+
+    while (temp != nullptr) {
+        cout << temp->name << " ";
+        temp = temp->next;
+    }
+
+    return 0;
+}
+OUTPUT:
+Aman Riya Kabir
+Solving problems in leetcode 
+Solving  SQL queries in HackerRank
+Smart to do updates 
