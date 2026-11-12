@@ -50,6 +50,7 @@ I'm learning to become a **full stack developer**.
 | 30 | Display tasks in Dashboard  |
 | 31 | PEL practice(OXFORD) |
 | 32 | Inheritance, Polymorphism and Task management,search and filtering |
+| 33 | Linked list in CPP |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 Be the better version of you  from the yesterday.....
