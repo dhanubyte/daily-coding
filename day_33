@@ -67,6 +67,45 @@ int main() {
 }
 OUTPUT:
 Aman Riya Kabir
+//write ac++ program using a self-referential song structure.
+create three songs, conncect them in playing order, and dispalya
+all song titles by moving through the next pointers.
+
+#include <iostream>
+using namespace std;
+
+struct Song {
+    string title;
+    Song* next;
+};
+
+int main() {
+    Song s1, s2, s3;
+
+    s1.title = "Shape of You";
+    s2.title = "Perfect";
+    s3.title = "Believer";
+
+    // Connect songs in playing order
+    s1.next = &s2;
+    s2.next = &s3;
+    s3.next = NULL;
+
+    // Display all song titles
+    Song* temp = &s1;
+
+    while (temp != NULL) {
+        cout << temp->title << endl;
+        temp = temp->next;
+    }
+
+    return 0;
+}
+//OUTPUT
+Shape of You
+Perfect
+Believer
+
 Solving problems in leetcode 
 Solving  SQL queries in HackerRank
 Smart to do updates 
