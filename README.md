@@ -51,6 +51,7 @@ I'm learning to become a **full stack developer**.
 | 31 | PEL practice(OXFORD) |
 | 32 | Inheritance, Polymorphism and Task management,search and filtering |
 | 33 | Linked list in CPP |
+| 34 | Preparation for Exams |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 Be the better version of you  from the yesterday.....
