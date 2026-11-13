@@ -1,0 +1,41 @@
+## Day 35 – Smart To-Do App: Feature Enhancements 
+
+### Today's Progress
+
+Today, I improved the Smart To-Do App by implementing the following features:
+
+1. **Dark/Light Theme Toggle**
+   - Added a button to switch between dark and light modes.
+   - Saved the selected theme using Local Storage.
+   - Theme preference remains even after refreshing the page.
+
+2. **Task Deletion Confirmation**
+   - Added a confirmation message before deleting a task.
+   - Prevents accidental task deletion.
+
+3. **Task Editing Options**
+   - Improved the Edit button.
+   - Users can edit task title, priority, and due date.
+
+4. **Overdue Task Detection**
+   - Added automatic overdue task detection.
+   - Highlights overdue tasks with a red border.
+   - Displays an OVERDUE warning label.
+   - Completed tasks are excluded from overdue detection.
+
+5. **Task Description Feature**
+   - Added an optional description field while creating tasks.
+   - Connected the description field with JavaScript.
+   - Added custom CSS styling and responsive design.
+
+### Technologies & Concepts Practiced
+- HTML5 – Textarea and form elements
+- CSS3 – Theme styling, transitions, and responsive design
+- JavaScript – DOM manipulation, conditions, and event handling
+- Local Storage – Saving tasks and theme preferences
+- Date Handling – Identifying overdue tasks
+
+### Project Status
+Successfully implemented and tested all the above features.
+
+**Next Step:** Display task descriptions inside task cards and continue improving the application.
