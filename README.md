@@ -54,6 +54,7 @@ I'm learning to become a **full stack developer**.
 | 34 | Preparation for Exams |
 | 35 | Smart To-do app feature enhancements |
 | 36 | INT project work and Preparation for exams | 
+| 37 | Implementation of max heap with insertion and deletion |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 Be the better version of you  from the yesterday.....
