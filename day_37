@@ -1,0 +1,129 @@
+Preparation for CA exam
+//Deletion in Heap
+#include <iostream>
+using namespace std;
+
+const int MAX_SIZE = 100;
+
+struct Heap {
+    int arr[MAX_SIZE];
+    int size;
+};
+
+void initHeap(Heap &h) {
+    h.size = 0;
+}
+
+bool isEmpty(const Heap &h) {
+    return h.size == 0;
+}
+
+bool isFull(const Heap &h) {
+    return h.size == MAX_SIZE;
+}
+
+inline int parent(int i) {
+    return (i - 1) / 2;
+}
+
+inline int leftChild(int i) {
+    return 2 * i + 1;
+}
+
+inline int rightChild(int i) {
+    return 2 * i + 2;
+}
+
+inline void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+void insertMax(Heap &h, int value) {
+    if (isFull(h)) {
+        cout << "Heap is full!\n";
+        return;
+    }
+
+    h.arr[h.size] = value;
+    int i = h.size++;
+
+    while (i > 0 && h.arr[i] > h.arr[parent(i)]) {
+        swap(h.arr[i], h.arr[parent(i)]);
+        i = parent(i);
+    }
+}
+
+int deleteMax(Heap &h) {
+    if (isEmpty(h)) {
+        cout << "Heap is empty!\n";
+        return -1;
+    }
+
+    int maxVal = h.arr[0];
+
+    h.arr[0] = h.arr[h.size - 1];
+    h.size--;
+
+    int i = 0;
+
+    while (leftChild(i) < h.size) {
+        int largest = i;
+        int left = leftChild(i);
+        int right = rightChild(i);
+
+        if (left < h.size && h.arr[left] > h.arr[largest]) {
+            largest = left;
+        }
+
+        if (right < h.size && h.arr[right] > h.arr[largest]) {
+            largest = right;
+        }
+
+        if (largest != i) {
+            swap(h.arr[i], h.arr[largest]);
+            i = largest;
+        }
+        else {
+            break;
+        }
+    }
+
+    return maxVal;
+}
+
+void display(const Heap &h) {
+    for (int i = 0; i < h.size; i++) {
+        cout << h.arr[i] << " ";
+    }
+    cout << "\n";
+}
+
+int main() {
+    Heap h;
+    initHeap(h);
+
+    int elements[] = {50, 30, 40, 20, 25, 35, 45};
+
+    for (int val : elements) {
+        insertMax(h, val);
+    }
+
+    cout << "Before deletion: ";
+    display(h);
+
+    int deleted = deleteMax(h);
+
+    cout << "Deleted max element: " << deleted << "\n";
+
+    cout << "After deletion: ";
+    display(h);
+
+    return 0;
+}
+//OUTPUT
+Before deletion: 50 30 45 20 25 35 40 
+Deleted max element: 50
+After deletion: 45 30 40 20 25 35 
+
