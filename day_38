@@ -1,0 +1,16 @@
+### Day's Progress – Smart To-Do App
+
+**Features developed:**
+- Created a new Signup page using HTML.
+- Designed a responsive signup interface using CSS.
+- Maintained consistent dark theme and coral accent styling.
+- Connected signup form elements using JavaScript.
+- Implemented form submission handling.
+- Added password length validation (minimum 6 characters).
+- Added confirm password matching validation.
+- Displayed success and error messages dynamically.
+- Tested signup form validation successfully.
+
+**Next Step:** Save registration details using localStorage and connect the Signup page with the Login page.
+  Graphs concepts in DSA
+  
