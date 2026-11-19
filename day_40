@@ -1,0 +1,17 @@
+//Dynamically allocate memory in cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    int *ptr=new int(5);
+    cout<<*ptr <<endl;
+    delete ptr;
+    
+    
+    return 0;
+}
+//OUTPUT
+5
+//Mathematics
+Spanning tree and Prim's Algorithm  
