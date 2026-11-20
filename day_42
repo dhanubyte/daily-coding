@@ -1,0 +1,29 @@
+# Day 21 – Smart To-Do App Development
+
+## Today's Progress
+
+Worked on improving the profile section of my Smart To-Do App.
+
+### Features Implemented
+- Created a profile dropdown menu.
+- Added user name and email display.
+- Added custom profile picture upload from device gallery.
+- Stored the uploaded profile picture using LocalStorage.
+- Added an option to remove the profile picture.
+- Displayed the same profile picture in the header and dropdown.
+- Designed a full-screen profile image preview.
+- Added image preview closing functionality.
+
+### Concepts Practiced
+- DOM manipulation in JavaScript.
+- Event listeners and click events.
+- FileReader API.
+- LocalStorage.
+- HTML structure and CSS styling.
+- Image preview modal functionality.
+
+### Learning Outcome
+Improved my understanding of handling image uploads, managing user interface interactions, and working with browser LocalStorage.
+
+**Project:** Smart To-Do App  
+**Status:** Ongoing 🚀
