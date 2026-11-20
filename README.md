@@ -58,6 +58,7 @@ I'm learning to become a **full stack developer**.
 | 38 | signup card in smart to do project |
 | 39 | Discussed about project |
 | 40 | Prims Algorithm |
+| 41 | Debate on traditional vs online learning |
 ## Goal
 Commit something real every day and build a deployed full stack project.
 Be the better version of you  from the yesterday.....
